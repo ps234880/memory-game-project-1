@@ -1,4 +1,16 @@
-const images = ['assets/image1.jpg', 'assets/image2.jpg', 'assets/image3.jpg'];
+const images = [
+  'assets/pidove.png',
+  'assets/charizard.png',
+  'assets/pikachu.png',
+  'assets/blastoise.png',
+  'assets/venusaur.png',
+  'assets/golem.png',
+  'assets/gengar.png',
+  'assets/onix.png',
+  'assets/gigalith.png',
+  'assets/chansey.png'
+];
+
 const duplicateImages = images.concat(images);
 
 // Shuffle function from w3schools
