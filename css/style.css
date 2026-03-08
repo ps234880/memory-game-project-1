@@ -1,15 +1,29 @@
+/* Container for the cards */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 110px);
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+/* Individual cards */
 .card {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    display: inline-block;
+    width: 110px;
+    height: 150px;
     cursor: pointer;
-    border: 1px solid #ccc;
+    background-image: url('../assets/pokemon-backside.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 
 .card img {
     width: 100%;
     height: 100%;
+    object-fit: fill;
+    /* object-fit: cover; */
+    background-color: grey;
+    border-radius: 10px;
     visibility: hidden;
-    object-fit: cover;
 }
